@@ -1,0 +1,12 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    border-radius: 7px;
+    background-color: #414141;
+
+    .header-container__text {
+        color: $flat-clouds;
+    }
+}

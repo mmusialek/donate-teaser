@@ -1,17 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import {DonateComponent} from "./components/DonateComponent";
+import {CenterContainerWrapper} from "./hoc/CenterContainerWrapper";
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <header>
-          <h1>HELLO donate teaser!</h1>
-          <img src={logo} alt="logo" />
-        </header>
-      </div>
-    );
-  }
+
+    componentWillMount() {
+
+        this.setState({
+            donateComponent: new CenterContainerWrapper(DonateComponent)
+        });
+    }
+
+    render() {
+        return (
+            <div>
+                {this.state.donateComponent}
+            </div>
+        );
+    }
 }
 
 export default App;

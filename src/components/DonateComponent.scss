@@ -1,0 +1,31 @@
+.donate-container {
+    width: 404px;
+    background-color: $primary-color;
+
+    .donate-container__header {
+        margin-bottom: 15px;
+    }
+
+    .donate-container__body {
+        margin: 25px 30px;
+
+        .donate-container__body__bottom-margin {
+            margin-bottom: 25px;
+
+            &--small {
+                margin-bottom: 15px;
+            }
+        }
+
+        .donate-container__body__why-give-donation {
+            color: $primary-accent-color;
+            font-style: italic;
+        }
+
+    }
+
+    .donate-container__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}

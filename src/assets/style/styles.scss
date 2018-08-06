@@ -2,13 +2,28 @@
 @import "colors";
 @import "variables";
 
+
+// here goes component styles
+
+//hoc
+@import "../../hoc/CenterContainerWrapper";
+
+// elements
+@import "../../elements/Elements";
+@import "../../elements/HeaderElement";
+@import "../../elements/ProgressBarElement";
+
+//components
+@import "../../components/DonateComponent";
+
+
 html,
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1.2px;
   font-size: 1em;
   height: 100%;
-  background-color: $primary-color;
+  background-color: $third-color;
   color: $font-primary-color;
   margin: 0;
 }
