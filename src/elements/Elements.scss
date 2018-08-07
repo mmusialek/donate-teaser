@@ -1,4 +1,73 @@
 .button-element {
-    padding: 20px 0;
+    padding: 15px 0;
     cursor: pointer;
+    text-align: center;
+
+    &--default {
+        border: 1px solid $flat-concrete;
+        border-radius: 7px;
+    }
+
+    &--primary {
+        border: 1px solid $flat-concrete;
+        background-color: $flat-emerald;
+        color: $flat-clouds;
+        border-radius: 7px;
+    }
+
+    &--disabled {
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    &--w45 {
+        width: 45%
+    }
+}
+
+.text-highlight {
+    color: $flat-pumpkin;
+}
+
+.text-error {
+    color: $flat-alizarin;
+}
+
+.text-thank-you {
+    color: $flat-clouds;
+    background-color: $flat-turquoise;
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.no-link {
+    text-decoration: none;
+    color: $font-primary-color;
+}
+
+.input__number {
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid $flat-concrete;
+    border-radius: 7px;
+}
+
+.input__dolar-sign{
+    position: absolute;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }

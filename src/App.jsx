@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {DonateComponent} from "./components/DonateComponent";
+import {DonateComponent} from "./epic/DonateComponent";
 import {CenterContainerWrapper} from "./hoc/CenterContainerWrapper";
 
 class App extends Component {

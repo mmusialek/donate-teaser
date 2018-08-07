@@ -1,0 +1,31 @@
+.donate-form-container {
+    border-left: 1px solid $flat-concrete;
+    border-right: 1px solid $flat-concrete;
+    border-bottom: 1px solid $flat-concrete;
+    margin-bottom: 20px;
+
+    .donate-form-container__body {
+        margin: 0 25px 30px 25px;
+        padding-top: 25px;
+        .donate-form-container__body__bottom-margin {
+            margin-bottom: 25px;
+            &--small {
+                margin-bottom: 15px;
+            }
+        }
+        .donate-form-container__body__why-give-donation {
+            color: $primary-accent-color;
+            font-style: italic;
+            cursor: pointer;
+        }
+
+        .donate-form-container__body__donate-form {
+            display: flex;
+            justify-content: space-between;
+            .donate-form-container__body__donate-form__item {
+                box-sizing: border-box;
+                width: 45%;
+            }
+        }
+    }
+}

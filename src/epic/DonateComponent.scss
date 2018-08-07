@@ -1,0 +1,14 @@
+.donate-container {
+    width: 404px;
+    background-color: $primary-color;
+    .donate-container__header {
+        margin-bottom: 15px;
+    }
+    .donate-container__footer {
+        display: flex;
+        justify-content: space-between;
+        .donate-container__footer__item {
+            min-width: 90%
+        }
+    }
+}

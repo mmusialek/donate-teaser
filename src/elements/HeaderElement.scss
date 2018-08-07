@@ -1,12 +1,27 @@
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 40px;
-    border-radius: 7px;
-    background-color: #414141;
+    .header-container__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+        border-radius: 7px;
+        background-color: $flat-wet-asphalt;
+        .header-container__wrapper__text {
+            color: $flat-clouds;
+        }
+    }
 
-    .header-container__text {
-        color: $flat-clouds;
+    .header-container__marker {
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        position: relative;
+        display: block;
+        content: '';
+        left: calc(100% - 20px);
+        left: calc(var(--custom-marker-position) - 20px);
+
+        border-top: 14px solid $flat-wet-asphalt;
     }
 }
