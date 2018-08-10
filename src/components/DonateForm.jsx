@@ -90,7 +90,7 @@ export class DonateForm extends React.Component {
 }
 
 
-ProgressBarElement.propTypes = {
+DonateForm.propTypes = {
     daysLeft: PropTypes.number,
     donors: PropTypes.number,
     amount: PropTypes.number,

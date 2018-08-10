@@ -29,7 +29,7 @@ export class HeaderElement extends React.Component {
     }
 }
 
-ProgressBarElement.propTypes = {
+HeaderElement.propTypes = {
     amount: PropTypes.number,
     progress: PropTypes.number,
 };
